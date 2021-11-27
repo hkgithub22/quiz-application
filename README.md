@@ -1,2 +1,0 @@
-# quiz-application
-project
