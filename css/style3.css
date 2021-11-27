@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #b777eb;
+}
+
+::selection{
+    color: #fff;
+    background: radial-gradient(#fff,#aed8f5);
+}
+
+.start_btn{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.start_btn1{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.start_btn2{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #ff0088;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+.start_btn1 button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #ff0088;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.start_btn2 button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #ff0088;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
